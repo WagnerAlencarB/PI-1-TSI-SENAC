@@ -1,0 +1,223 @@
+@font-face {
+    font-family: 'berkshire_swashregular';
+    src: url('./fonts/berkshireswash-regular-webfont.woff2') format('woff2'),
+         url('./fonts/berkshireswash-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{
+    font-family:'berkshire_swashregular';
+}
+span{
+    color: white;
+    font-size: 20px;
+}
+
+#s1{
+    margin-left: 20px;
+}
+#hist{
+    max-width: 30px;
+    max-height: 30px;
+    
+}
+h1{
+
+    color: white;
+    font-size: 30px;
+    text-align: left;
+  
+
+}
+
+#icone{
+    max-width: 30px;
+    max-height: 30px;
+    margin-left: 20px;
+}
+#menu{
+    background-color: white;
+    
+}
+
+a{
+    font-size: large;
+    color: lightskyblue !important;
+}
+button{
+    background-color: skyblue !important;
+}
+#logo{
+    
+    background: black;
+    
+}
+#logoicone{
+    max-width: 30px;
+    max-height: 30px;
+}
+#imgmenu{
+    max-width: 30px;
+    max-height: 30px;
+    color:white;
+}
+#logo img{
+    max-width: 200px;
+    max-height: 200px;
+    margin-left: 20px;
+
+}
+#imgcont{
+    max-width: 30px;
+    max-height: 30px;
+}
+#imgfone{
+    justify-content: right;
+    max-width: 30px;
+    max-height: 30px;
+    
+}
+#instaicon{
+    max-width: 30px;
+    max-height: 30px;
+}
+#faceicon{
+    max-width: 30px;
+    max-height: 30px;
+}
+#email{
+    text-align: center;
+}
+#telefone{
+    text-align: center;
+}
+
+
+h2{
+    justify-content: center;
+    height: 50px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    margin-bottom: 50px;
+   
+}
+body{
+    background-color: lightskyblue; 
+    color: black;  
+}
+.container img {
+    max-width: 100%;
+    max-height: 100%;
+}
+#tabela img{
+    max-width: 100%;
+    border-radius: 50%;
+    
+}
+
+
+#telefone{
+    text-align: left;
+}
+
+section{
+    margin-top: 50px;
+    text-align: center;
+    color: black;
+    text-align: center;
+    font-size: large;
+    background-color: white;
+    width: 500px;
+    max-height: 300px;
+}
+#tabela{
+    margin-top:100px;
+   background-color: lightskyblue;
+}
+#tabela img{
+    margin-top:50px;
+    margin-bottom:50px;
+}
+#SobreNós{
+    margin-top:150px;
+  
+
+}
+
+footer{
+    margin-top: 100px;
+    background-color:black;
+    height: 60px;  
+    
+}
+footer{
+    color: white;
+}
+
+.wrapper{
+    margin-top: 10%;
+}
+
+.wrapper h1{
+    font-family: 'Allura', cursive;
+    font-size: 52px;
+    color: black;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.historia .lollo_historia p.role{
+    color: #ccc;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 12px; 
+}
+.historia .lollo_historia h3{
+    color: #7EC8E3;
+    font-size: 26px;
+    margin-top: 50px;
+}
+.historia .lollo_historia{
+    background: #fff;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: #8e8b8b;
+    position: relative;
+}
+.historia{
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+}
+.zoom{
+    overflow: hidden;
+}
+.zoom img{
+     max-width: 100%;
+     -moz-transition: all 0.3s;
+     -webkit-transition: all 0.3s;
+     transition:all 0.3s;
+}
+.zoom:hover img{
+    -moz-transform:scale(1.3);
+    -webkit-transfor:scale(1.3);
+    transform:scale(1.3);
+}
+.textoimg{
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    bottom: 20px;
+    z-index: 10px;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    
+}
